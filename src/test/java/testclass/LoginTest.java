@@ -17,13 +17,14 @@ public class LoginTest extends Basetest {
 	@Test
 		public static void  loginapp() throws InterruptedException {
 			
-		Thread.sleep(1000);
+		Thread.sleep(3000);
 	 WebElement un = driver.findElement(By.xpath("//android.widget.EditText[@text=\"Username\"]"));
+	 
 	 un.clear();
-	 un .sendKeys("4589066546");
+	 un .sendKeys("7865554342");
 		
 			driver.findElement(By.xpath("//android.widget.EditText[@text=\"Password\"]\r\n"
-					+ "")).sendKeys("4589066546");
+					+ "")).sendKeys("7865554342");
 			driver.findElement(By.xpath("//android.widget.TextView[@text=\"Login\"]\r\n"
 					+ "")).click();
 			Thread.sleep(3000);
