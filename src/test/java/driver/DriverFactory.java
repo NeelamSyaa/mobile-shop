@@ -24,6 +24,7 @@ public class DriverFactory {
 	        options.setAppActivity(loadConfig.get("appActivity"));
 
 	        options.setNoReset(true);
+	        options.setFullReset(true);
 	        options.setAutoGrantPermissions(true);
 	        options.setAppWaitActivity("*");
 	        options.setAppWaitDuration(Duration.ofSeconds(30));
